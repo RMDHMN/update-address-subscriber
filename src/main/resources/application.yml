@@ -1,0 +1,17 @@
+server:
+  port: 8085
+  tomcat:
+    connection-timeout: 3000
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    user: app
+    password: app
+    url: jdbc:mysql://localhost:3308/data-source
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true

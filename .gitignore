@@ -1,3 +1,12 @@
+# Folders
+/target
+/.idea
+/logs
+/logs-to-collect
+
+# ide files
+*.iml
+
 # Compiled class file
 *.class
 
